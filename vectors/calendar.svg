@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2048px" height="2048px" viewBox="0 0 2048 2048" enable-background="new 0 0 2048 2048" xml:space="preserve">
+<path id="calendar" d="M1536,384V256h-128v128h-323.9V256h-128v128H640V256H512v128H256v1408h1536V384H1536z M768,1664H512v-256h256
+	V1664z M768,1280H512v-256h256V1280z M1152,1664H896v-256h256V1664z M1152,1280H896v-256h256V1280z M1536,1664h-256v-256h256V1664z
+	 M1536,1280h-256v-256h256V1280z M1664,768H384V512h128v128h128V512h316.1v128h128V512H1408v128h128V512h128V768z"/>
+</svg>
