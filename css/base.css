@@ -71,7 +71,7 @@
     font-family: 'chunky_mobile';
     src: format('woff'),
          url('../fonts/chunkymobile-regular.ttf') format('truetype'),
-         url('../_fonst/chunkymobile-regular.svg#chunky_mobile') format('svg');
+         url('../fonts/chunkymobile-regular.svg#chunky_mobile') format('svg');
     font-weight: normal;
     font-style: normal;
 }
