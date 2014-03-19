@@ -1,0 +1,227 @@
+/*Font face declarations*/
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Reg-webfont.eot');
+    src: url('../fonts/Lato-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Reg-webfont.woff') format('woff'),
+         url('../fonts/Lato-Reg-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Reg-webfont.svg#LatoRegular') format('svg');
+	font-weight: normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-RegIta-webfont.eot');
+    src: url('../fonts/Lato-RegIta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-RegIta-webfont.woff') format('woff'),
+         url('../fonts/Lato-RegIta-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-RegIta-webfont.svg#LatoItalic') format('svg');
+	font-weight: normal;
+	font-style:italic;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Bol-webfont.eot');
+    src: url('../fonts/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bol-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bol-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bol-webfont.svg#LatoBold') format('svg');
+	font-weight: bold;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-BolIta-webfont.eot');
+    src: url('../fonts/Lato-BolIta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-BolIta-webfont.woff') format('woff'),
+         url('../fonts/Lato-BolIta-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-BolIta-webfont.svg#LatoBoldItalic') format('svg');
+	font-weight: bold;
+	font-style:italic;
+}
+@font-face {
+	font-family: 'LatoLight';
+	 src: url('../fonts/Lato-Lig-webfont.eot');
+    src: url('../fonts/Lato-Lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Lig-webfont.woff') format('woff'),
+         url('../fonts/Lato-Lig-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Lig-webfont.svg#LatoLight') format('svg');
+	font-weight: normal;
+	font-style:normal;
+}
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('../fonts/Lato-Bla-webfont.eot');
+    src: url('../fonts/Lato-Bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bla-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bla-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bla-webfont.svg#LatoBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'chunky_mobile';
+    src: url('../fonts/chunkymobile-regular.eot');
+    }
+
+@font-face {
+    font-family: 'chunky_mobile';
+    src: format('woff'),
+         url('../fonts/chunkymobile-regular.ttf') format('truetype'),
+         url('../_fonst/chunkymobile-regular.svg#chunky_mobile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*basic styles*/
+html, body {
+	margin: 0;
+}
+html {
+	background: #77A0B8;
+}
+body {
+	font: 100% Lato, Helvetica, sans-serif;
+	background: white;
+	width: 60%;
+	margin: 0 auto;
+	padding: 2%;
+	line-height: 1.6;
+}
+article, aside, section, nav, figure, header, footer {
+	display: block;
+}
+h1, h2, h3 {
+	font-size: 2.4em;
+	font-weight: normal;
+	font-family: LatoLight, Helvetica, sans-serif;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+	color: #575451;
+	margin: 0;
+	line-height: 1;
+}
+h1 {
+	font-family: LatoBlack, Arial Black, sans-serif;
+	font-size: 3.6em;
+	text-align: center;
+	margin: 2em 0 1em;
+}
+h2 {
+	font-size: 2em;
+	margin-top: 1em;
+}
+h3 {
+	font-size: 1.8em;
+}
+h4 {
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+p {
+	font-size: 1.2em;
+}
+a {
+	color: #77A0B8;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+code {
+	color: red;
+}
+ul {
+	margin-bottom: 64px;
+}
+/*Global classes*/
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
+}
+
+/* Font specimen styles */
+ul.specimen {
+	list-style: none;
+}
+ul.specimen li {
+	display: block;
+	float: left;
+	border: 1px solid #666;
+	width: 130px;
+	padding: 5px 20px;
+	text-align: center;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+li strong {
+	display: block;
+}
+span[data-icon]:before {
+	font-family: chunky_mobile;
+	content: attr(data-icon);
+	speak: none;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 64px;
+	display:block;
+	line-height: 64px; 
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+span.multi {
+	position: relative;
+	display:block;
+	width:64px;
+	margin: 0 auto;
+}
+span.multi span {
+	position: absolute;
+	top:0;
+	left:0;
+}
+/* multi color colors */
+.maps {
+	color: #7D7893;
+}
+.maps span {
+	color: #7B3123;
+}
+.full span {
+	color: green;
+}
+.seventyfive span {
+	color: #89C423;
+}
+.half span {
+	color: #DBB219;
+}
+.quarter span {
+	color: red;
+}
+.cloud {
+	color: #A5D2DB;
+}
+.cloud span {
+	color: black;
+}
